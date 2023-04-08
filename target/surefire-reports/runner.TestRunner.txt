@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 101.741 s <<< FAILURE! - in runner.TestRunner
+User creates an account only with mandatory field(Registration Functionality)  Time elapsed: 7.663 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Your Account Has Been Created!]> but was:<[Register Account]>
+
+User creates an account  with all fields(Registration Functionality)  Time elapsed: 8.003 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Your Account Has Been Created!]> but was:<[Register Account]>
+
